@@ -80,6 +80,6 @@ int _printf(const char *format, ...)
 		else
 			i++;
 	}
-	va_end(valist);
-	return (count);
+va_end(valist);
+return (count);
 }
